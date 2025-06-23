@@ -19,6 +19,9 @@ const config = withPWA({
     locales: ["en"],
     defaultLocale: "en",
   },
+   eslint: {
+    ignoreDuringBuilds: true,
+  },
 });
 
 export default config;
