@@ -38,15 +38,43 @@ const About = () => {
             About Me
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-white/80 max-w-3xl">
-            I’m a UI/UX designer and frontend developer passionate about building engaging digital experiences using{' '}
+            I'm a third-year Chemical Engineering undergraduate at IIT Ropar with a deep interest in crafting impactful digital products. 
+            While my academic journey focuses on core engineering concepts, my passion lies in <strong className="text-white">UI/UX design</strong> 
+            and <strong className="text-white">frontend development</strong>.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-white/80 max-w-3xl">
+            Over the past few years, I’ve worked on diverse projects ranging from 
+            <span className="text-pink-400"> research dashboards</span> and 
+            <span className="text-pink-400"> educational platforms</span> to 
+            <span className="text-pink-400"> collaborative coding tools</span>. I love using tools like{" "}
             <Link
-              href="https://create.t3.gg/"
+              href="https://nextjs.org"
               target="_blank"
               className="underline underline-offset-4 hover:text-pink-400 transition"
             >
-              Next.js, Tailwind, and TypeScript
+              Next.js
             </Link>
-            . Since 2021, I’ve worked with startups and design-led teams to bring ideas to life—right from ideation to pixel-perfect implementation.
+            ,{" "}
+            <Link
+              href="https://tailwindcss.com"
+              target="_blank"
+              className="underline underline-offset-4 hover:text-pink-400 transition"
+            >
+              Tailwind CSS
+            </Link>
+            , and{" "}
+            <Link
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              className="underline underline-offset-4 hover:text-pink-400 transition"
+            >
+              TypeScript
+            </Link>{" "}
+            to build intuitive, fast, and scalable user interfaces.
+          </p>
+          <p className="mt-4 text-lg leading-relaxed text-white/80 max-w-3xl">
+            Outside of code, I enjoy exploring new design systems, solving DSA problems, and learning about machine learning, backend development, and system design. 
+            I’m always excited to collaborate on meaningful projects that blend engineering, creativity, and impact.
           </p>
         </motion.div>
       </div>
@@ -55,3 +83,5 @@ const About = () => {
 };
 
 export default About;
+
+
