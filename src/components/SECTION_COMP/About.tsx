@@ -25,7 +25,7 @@ import { MdEmail } from 'react-icons/md';
 
 const About = () => {
   return (
-    <section id="about" className="w-full py-20 px-4 xl:px-0 bg-black text-white">
+    <section id="about"  className="relative w-full py-28 px-6 md:px-12 bg-gradient-to-br from-[#0f0f0f] via-[#1c1c1c] to-[#0f0f0f]">
       <div className="max-w-6xl mx-auto flex flex-col space-y-16">
         {/* Heading & Paragraph */}
         <motion.div

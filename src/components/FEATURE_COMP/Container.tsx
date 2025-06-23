@@ -109,7 +109,7 @@ export default function Container(props: ContainerProps) {
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <meta name="theme-color" content="#7B82FE" />
+        <meta name="theme-color" content="#000000" />
         <meta name="description" content={meta.description} />
         <meta property="og:url" content={`https://www.wendoj.codes${router.asPath}`} />
         <link rel="canonical" href={`https://www.wendoj.codes${router.asPath}`} />
@@ -206,7 +206,7 @@ export default function Container(props: ContainerProps) {
       </AnimatePresence>
 
       {/* Main Content */}
-      <main className={cn("container", props.className)}>{children}</main>
+     <main className={cn("w-full bg-background", props.className)}>{children}</main>
       <Footer />
     </>
   );

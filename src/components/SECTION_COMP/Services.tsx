@@ -49,7 +49,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" data-scroll-section className="py-32 bg-[#090909]">
+    <section id="services" data-scroll-section className="py-32 bg-[#000000]">
       <div className="max-w-6xl mx-auto px-4 xl:px-0">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

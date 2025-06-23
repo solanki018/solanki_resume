@@ -10,11 +10,6 @@ import VanillaTilt from "vanilla-tilt";
 import { CarouselApi } from "@/components/UI_ELEMENT/carousel";
 
 
-
-
-
-
-
 export default function Home() {
  
 const refScrollContainer = useRef(null);
@@ -100,8 +95,6 @@ const refScrollContainer = useRef(null);
       <Experience />
       <Services />
       <Contact />
-        
-
       </div>
     </Container>
   );
