@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 
 import {
   Carousel,
@@ -21,28 +20,28 @@ import {
 
 const projects = [
   {
-    title: 'TimeSage',
-     image: '/assets/DASBOARD.png',
-    href: 'https://timesage.vercel.app',
-    description: 'AI-driven productivity tracker & time insights dashboard.',
+    title: 'Codengo',
+    image: '/assets/2.png', // replace with actual image path
+    href: 'https://codengo-l1d8.onrender.com/', // update with live link if available
+    description: 'A collaborative coding platform with code rooms, compiler, and download support.',
   },
   {
-    title: 'TimeSage',
-    image: '/assets/DASBOARD.png',
-    href: 'https://timesage.vercel.app',
-    description: 'AI-driven productivity tracker & time insights dashboard.',
+    title: 'DriverForge',
+    image: '/assets/3.png', // replace with actual image path
+    href: 'https://driveforge-nqwi.vercel.app/', // update with actual URL
+    description: 'An intuitive freelancing platform connecting clients and freelancers in real-time.',
   },
   {
-    title: 'TimeSage',
-    image: '/assets/DASBOARD.png',
-    href: 'https://timesage.vercel.app',
-    description: 'AI-driven productivity tracker & time insights dashboard.',
+    title: 'AVL Tree Visualizer',
+    image: '/assets/1.png', // replace with actual image path
+    href: 'https://avl-tree-lqiv.vercel.app/', // update with live link
+    description: 'Interactive AVL tree visualizer with dynamic insertion, deletion, and animations.',
   },
   {
-    title: 'TimeSage',
-    image: '/assets/DASBOARD.png',
-    href: 'https://timesage.vercel.app',
-    description: 'AI-driven productivity tracker & time insights dashboard.',
+    title: 'Zeitgeist Website (Figma + Web)',
+    image: '/assets/4a.png', // replace with actual image path
+    href: 'https://zeitgeist-iitropar.vercel.app', // or Figma prototype link
+    description: 'Designed and developed the official cultural fest website of IIT Ropar with responsive UI and smooth animations.',
   },
 ];
 
@@ -69,7 +68,7 @@ const Projects = () => {
             Streamlined Digital Experiences
           </h2>
           <p className="mt-4 max-w-xl mx-auto text-base text-white/70 xl:text-lg">
-            From intuitive interfaces to performance-optimized apps, here are some of the projects I’ve crafted with code and care.
+            From intuitive interfaces to performance-optimized tools, here are some projects I’ve built with purpose and passion.
           </p>
         </div>
 

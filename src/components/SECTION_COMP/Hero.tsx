@@ -1,22 +1,14 @@
-import Container from "@/components/FEATURE_COMP/Container";
 import { useEffect, useRef, Suspense, useState } from "react";
 import { Button } from "@/components/UI_ELEMENT//button";
 import { TriangleDownIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-import { cn, scrollTo } from "@/lib/utils";
-import Image from "next/image";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/UI_ELEMENT//card";
+import { cn } from "@/lib/utils";
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
   type CarouselApi,
 } from "@/components/UI_ELEMENT/carousel";
 import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
-import { Code, MonitorCheck, Palette, Rocket, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
