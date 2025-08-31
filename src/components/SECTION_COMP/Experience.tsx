@@ -3,31 +3,31 @@
 
 const experiences = [
   {
-    year: '2026',
+    year: 'Aug 2026-Present',
     title: 'Head, Graphic Design',
     org: 'Advitya',
     desc: 'Led the creative direction and graphic design for one of the largest cultural fests, ensuring consistent visual storytelling across all platforms.',
   },
   {
-    year: '2025',
+    year: 'May 2025 - Present',
     title: 'Coordinator',
     org: 'ARSC',
     desc: 'Coordinated key student activities and technical events, driving engagement and innovation in robotics and space tech.',
   },
   {
-    year: '2025',
+    year: 'Aug 2024 - May 2025',
     title: 'Coordinator, Content Generation Team',
     org: 'CDPC',
     desc: 'Created and managed impactful content for placement and career development initiatives under CDPC.',
   },
   {
-    year: '2024',
+    year: 'June 2024- Oct 2024',
     title: 'Co-Head, Design Team',
     org: 'Zeitgeist',
     desc: 'Managed a team of designers for the Zeitgeist cultural fest, delivering a polished UI/UX experience and design assets with high visual appeal.',
   },
   {
-    year: '2024',
+    year: 'Sept 2024 - May 2025',
     title: 'Media & Outreach Lead',
     org: 'GDG On Campus',
     desc: 'Handled branding and outreach for Google Developer Group campus events, boosting community growth and event visibility.',
