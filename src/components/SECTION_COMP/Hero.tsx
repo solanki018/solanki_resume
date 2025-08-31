@@ -133,7 +133,7 @@ const Hero = () => {
         transition={{ delay: 0.8 }}
         className="mt-8 flex gap-4 flex-wrap justify-center"
       >
-        <Link href="mailto:sourabhsolanki@protonmail.com">
+        <Link href="mailto:sourabhsolanki1694@gmail.com">
           <Button size="lg">
             Contact Me <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
