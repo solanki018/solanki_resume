@@ -18,11 +18,23 @@ const About = () => {
             About Me
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-white/80 max-w-3xl">
-            I'm a third-year Chemical Engineering student at IIT Ropar with a strong passion for crafting seamless digital experiences. My focus lies in <strong className="text-white">UI/UX design</strong> and <strong className="text-white">full stack development</strong>, and I’ve worked on projects like <span className="text-pink-400">Codengo</span> and <span className="text-pink-400">DriverForge</span> that combine design, functionality, and performance. I enjoy building with tools like <span className="text-pink-400">Next.js</span>, <span className="text-pink-400">Tailwind CSS</span>, and <span className="text-pink-400">TypeScript</span>, and constantly experiment with new design systems and frameworks.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-white/80 max-w-3xl">
-            My interests also extend to the intersection of <span className="text-pink-400">process control</span> and <span className="text-pink-400">machine learning</span> in chemical engineering, where I explore how data-driven approaches can optimize real-world systems. I thrive on hands-on learning, solving problems across tech and engineering domains, and collaborating on impactful, innovative projects.
-          </p>
+  I'm a passionate <strong className="text-white">UI/UX designer</strong> and 
+  <strong className="text-white"> full stack developer</strong> who loves crafting seamless, user-centered digital experiences. 
+  I’ve designed and built projects like <span className="text-pink-400">Codengo</span> and 
+  <span className="text-pink-400">DriverForge</span>, focusing on intuitive interfaces, smooth interactions, 
+  and scalable functionality. My toolkit includes <span className="text-pink-400">Next.js</span>, 
+  <span className="text-pink-400">Tailwind CSS</span>, <span className="text-pink-400">TypeScript</span>, 
+  and modern design systems that help transform ideas into polished products.
+</p>
+
+<p className="mt-4 text-lg leading-relaxed text-white/80 max-w-3xl">
+  I thrive on blending design thinking with technical execution—researching user needs, 
+  translating them into clean interfaces, and developing performant applications. 
+  Beyond just aesthetics, I aim to create meaningful experiences that balance usability, 
+  accessibility, and performance. Constantly exploring new frameworks and tools, 
+  I enjoy collaborating on impactful projects that push creative and technical boundaries.
+</p>
+
         </motion.div>
       </div>
     </section>
